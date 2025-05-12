@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { apiClient } from "../../../lib/api/api-client"
+import { apiClient } from "../../../nextstack/lib/api/api-client"
 
 export default function CreatePageForm() {
   const router = useRouter()

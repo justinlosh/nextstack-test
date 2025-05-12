@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import { apiClient } from "../../lib/api/api-client"
+import { apiClient } from "../../nextstack/lib/api/api-client"
 import ContentRenderer from "./content-renderer"
 import ContentSkeleton from "./content-skeleton"
 import ErrorDisplay from "./error-display"

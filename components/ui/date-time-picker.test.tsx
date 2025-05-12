@@ -1,6 +1,6 @@
 "use client"
 
-import { render, screen } from "@/lib/test-utils/test-utils"
+import { render, screen } from "@/nextstack/lib/test-utils/test-utils"
 import { DateTimePicker } from "./date-time-picker"
 import { jest } from "@jest/globals"
 

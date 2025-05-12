@@ -1,4 +1,4 @@
-import { render, screen } from "@/lib/test-utils/test-utils"
+import { render, screen } from "@/nextstack/lib/test-utils/test-utils"
 import { StatusBadge } from "./status-badge"
 
 describe("StatusBadge", () => {

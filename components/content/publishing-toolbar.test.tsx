@@ -1,4 +1,4 @@
-import { render, screen, fireEvent, waitFor } from "@/lib/test-utils/test-utils"
+import { render, screen, fireEvent, waitFor } from "@/nextstack/lib/test-utils/test-utils"
 import { PublishingToolbar } from "./publishing-toolbar"
 
 describe("PublishingToolbar", () => {

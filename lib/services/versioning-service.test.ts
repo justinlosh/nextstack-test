@@ -1,5 +1,5 @@
 import { versioningService } from "./versioning-service"
-import { mockFetch, resetMocks } from "@/lib/test-utils/test-utils"
+import { mockFetch, resetMocks } from "@/nextstack/lib/test-utils/test-utils"
 
 describe("Versioning Service", () => {
   beforeEach(() => {

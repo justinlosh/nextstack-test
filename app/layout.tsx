@@ -2,7 +2,7 @@ import type React from "react"
 import "./globals.css"
 import { AnalyticsProvider } from "../components/vercel/analytics-provider"
 import { PerformanceMonitor } from "../components/vercel/performance-monitor"
-import { getVercelEnvironment } from "../lib/config/vercel-env"
+import { getVercelEnvironment } from "../nextstack/lib/config/vercel-env"
 import { Suspense } from "react"
 
 export const metadata = {

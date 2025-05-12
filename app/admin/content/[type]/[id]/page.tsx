@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { useContent } from "@/lib/hooks/use-content"
-import { useContentScheduling } from "@/lib/hooks/use-content-scheduling"
-import { VersionStatus } from "@/lib/content-types/content-version"
+import { useContent } from "@/nextstack/lib/hooks/use-content"
+import { useContentScheduling } from "@/nextstack/lib/hooks/use-content-scheduling"
+import { VersionStatus } from "@/nextstack/lib/content-types/content-version"
 import { PublishingToolbar } from "@/components/content/publishing-toolbar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"

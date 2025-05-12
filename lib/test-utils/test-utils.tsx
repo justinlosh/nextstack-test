@@ -5,7 +5,7 @@ import userEvent from "@testing-library/user-event"
 import { jest } from "@jest/globals"
 
 // Import your providers
-import { ModuleConfigProvider } from "../../components/module-config/module-config-provider"
+import { ModuleConfigProvider } from "../../../components/module-config/module-config-provider"
 
 // Define a custom render function that includes providers
 const AllTheProviders = ({ children }: { children: React.ReactNode }) => {

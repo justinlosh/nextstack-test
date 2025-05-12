@@ -5,7 +5,7 @@ import { Bell } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import type { Notification } from "@/lib/services/notification-service"
+import type { Notification } from "@/nextstack/lib/services/notification-service"
 
 interface NotificationCenterProps {
   userId: string

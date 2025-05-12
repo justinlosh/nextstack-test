@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { usePreview, PreviewMode } from "../../lib/preview/preview-context"
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "../ui/resizable"
-import { cn } from "../../lib/utils"
+import { cn } from "../../nextstack/lib/utils"
 
 interface PreviewContainerProps {
   editor: React.ReactNode

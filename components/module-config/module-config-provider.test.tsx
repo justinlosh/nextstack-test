@@ -1,4 +1,4 @@
-import { render } from "@/lib/test-utils/test-utils"
+import { render } from "@/nextstack/lib/test-utils/test-utils"
 import { ModuleConfigProvider, useModuleConfig } from "./module-config-provider"
 
 // Test component that uses the hook

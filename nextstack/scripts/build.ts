@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { program } from "commander"
-import { BuildOrchestrator, type BuildOptions } from "../lib/build/build-orchestrator"
-import { logger, LogLevel } from "../lib/services/logger"
+import { BuildOrchestrator, type BuildOptions } from "../../lib/build/build-orchestrator"
+import { logger, LogLevel } from "../../lib/services/logger"
 
 // Configure the command line interface
 program

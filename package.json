@@ -6,8 +6,8 @@
     "dev": "node server.js",
     "build": "ts-node scripts/build.ts",
     "build:next": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "lint": "next` lint",
     "test": "ts-node scripts/build.ts --test-only",
     "test:watch": "jest --watch",
     "test:coverage": "ts-node scripts/build.ts --test-only --coverage"

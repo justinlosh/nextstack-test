@@ -1,8 +1,8 @@
 import React from "react"
 import Markdown from "react-markdown"
-import type { Page } from "../../lib/content-types/page"
-import type { Post } from "../../lib/content-types/post"
-import type { Product } from "../../lib/content-types/product"
+import type { Page } from "../../nextstack/lib/content-types/page"
+import type { Post } from "../../nextstack/lib/content-types/post"
+import type { Product } from "../../nextstack/lib/content-types/product"
 
 interface ContentRendererProps {
   content: any

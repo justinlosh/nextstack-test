@@ -1,4 +1,4 @@
-import { AssetReferencePlugin } from './lib/build/webpack-plugins/asset-reference-plugin';
+import { AssetReferencePlugin } from './lib/build/webpack-plugins/build/webpack-plugins/asset-reference-plugin.js';
 import fs from 'fs';
 import path from 'path';
 

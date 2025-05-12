@@ -1,6 +1,6 @@
 import { POST } from "./route"
-import { versioningService } from "@/lib/services/versioning-service"
-import { notificationService } from "@/lib/services/notification-service"
+import { versioningService } from "@/nextstack/lib/services/versioning-service"
+import { notificationService } from "@/nextstack/lib/services/notification-service"
 
 // Mock the versioning service
 jest.mock("@/lib/services/versioning-service", () => ({

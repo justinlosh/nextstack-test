@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { apiClient } from "../../lib/api/api-client"
+import { apiClient } from "../../nextstack/lib/api/api-client"
 
 export default function ApiExamplePage() {
   const [pages, setPages] = useState<any[]>([])

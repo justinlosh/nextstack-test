@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { useContentList } from "@/lib/hooks/use-content-list"
-import { VersionStatus } from "@/lib/content-types/content-version"
+import { useContentList } from "@/nextstack/lib/hooks/use-content-list"
+import { VersionStatus } from "@/nextstack/lib/content-types/content-version"
 import { StatusBadge } from "./status-badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"

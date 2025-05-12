@@ -1,6 +1,6 @@
 import { renderHook, act } from "@testing-library/react"
 import { useContentScheduling } from "./use-content-scheduling"
-import { mockFetch, resetMocks } from "@/lib/test-utils/test-utils"
+import { mockFetch, resetMocks } from "@/nextstack/lib/test-utils/test-utils"
 
 describe("useContentScheduling", () => {
   beforeEach(() => {

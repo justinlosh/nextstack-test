@@ -1,4 +1,4 @@
-import { VersionStatus } from "@/lib/content-types/content-version"
+import { VersionStatus } from "@/nextstack/lib/content-types/content-version"
 import { Badge } from "@/components/ui/badge"
 import { Clock, CheckCircle, Edit, Archive } from "lucide-react"
 

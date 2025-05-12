@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { VersionStatus } from "@/lib/content-types/content-version"
+import { VersionStatus } from "@/nextstack/lib/content-types/content-version"
 import { Button } from "@/components/ui/button"
 import { StatusBadge } from "./status-badge"
 import { SchedulingDialog } from "./scheduling-dialog"
