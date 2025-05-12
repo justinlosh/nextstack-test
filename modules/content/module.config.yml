@@ -1,0 +1,30 @@
+name: content
+version: 1.0.0
+dependencies:
+  - core
+  - ui
+
+assets:
+  images:
+    - assets/images/**/*.{jpg,jpeg,png,gif,svg,webp}
+  styles:
+    - assets/styles/**/*.css
+  scripts:
+    - assets/scripts/**/*.js
+  fonts:
+    - assets/fonts/**/*.{woff,woff2,ttf,otf}
+
+build:
+  order: 200
+  env:
+    CONTENT_API_URL: /api/content
+
+runtime:
+  features:
+    enableDrafts: true
+    enableScheduling: true
+    enableVersioning: true
+  ui:
+    theme: light
+    showToolbar: true
+    defaultView: grid

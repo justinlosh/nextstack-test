@@ -1,0 +1,35 @@
+global:
+  env:
+    NODE_ENV: production
+    API_BASE_URL: /api
+  options:
+    optimize: true
+    sourceMaps: false
+    minify: true
+
+modules:
+  # Core module configuration
+  core:
+    build:
+      order: 100
+      env:
+        CORE_DEBUG: false
+    runtime:
+      features:
+        enableCache: true
+        logLevel: info
+
+  # UI module configuration
+  ui:
+    build:
+      order: 150
+      env:
+        UI_DEBUG: false
+    runtime:
+      theme: system
+      animations: true
+      responsiveBreakpoints:
+        sm: 640
+        md: 768
+        lg: 1024
+        xl: 1280

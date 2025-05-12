@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'reset';
+@import 'typography';
+@import 'layout';
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
